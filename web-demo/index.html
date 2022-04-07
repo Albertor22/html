@@ -8,12 +8,19 @@
 </head>
 <!--
     atributos de los enlaces
-        target: define donde se abrirá el recurso solicitado. Por norma general siempre que uses rutas absolutas coloca como valor "_blank"(manda a una nueva pestaña) - "_self" (ya viene predeterminada)
+        target: define donde se abrirá el recurso solicitado. Por norma general siempre que uses rutas absolutas coloca como valor "_blank"(manda a una nueva pestaña)
+        El valor por defecto es "_self" (ya viene predeterminada, es como no poner nada)
         download: atributo booleano, sirve para descargar el recurso solicitado. IMPORTANTE, el recurso debe estar en el mismo servidor.
 -->
 <body>
     <h1>Home</h1>
-    <a href="contacto.html" target="blank">Ir a contacto</a>
+    <nav>
+        <p><a href="/paginas/blog.html#post-1">Post-1</a></p>
+        <p><a href="/paginas/blog.html#post-2">Post-2</a></p>
+        <p><a href="/paginas/blog.html#post-3">Post-3</a></p>
+        <p><a href="/paginas/blog.html#post-4">Post-4</a></p>
+        <p><a href="/paginas/blog.html#post-5">Post-5</a></p>
+    </nav>
     <a href="https://google.com" target="blank">Ir a google</a>
 </body>
 </html>
